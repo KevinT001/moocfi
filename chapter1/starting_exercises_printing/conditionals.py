@@ -35,3 +35,17 @@ if (num >= 0):
 # Next please!
 
 #solution
+name = input("Please tell me your name:")
+
+
+if name == "Jerry":
+    print("Next please!")
+
+if name != "Jerry":
+    portions = int(input("How many portions of soup?"))
+
+    costtotal= (portions * 5.9)
+
+    print(f"The total cost is {costtotal}")
+    print("Next please!")
+
