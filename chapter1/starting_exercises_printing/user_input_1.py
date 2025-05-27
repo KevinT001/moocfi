@@ -33,3 +33,4 @@ city_and_postal= input("City and postal code:")
 print(name +" "+ family_name)
 print(address)
 print(city_and_postal)
+# The code above prompts the user for their given name, family name, street address, and city with postal code, and then prints the information in a formatted manner.
