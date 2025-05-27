@@ -29,3 +29,27 @@ print(f" - {skill1} ({level1})")
 print(f" - {skill2} ({level2})")
 print(f" - {skill3} ({level3}) \n")
 print(f"I am looking for a job with a salary of {lower}-{upper} euros per month")
+
+#prompt2
+
+# This program already contains two integer variables, x and y:
+
+# x = 27
+# y = 15
+# Please complete the program so that it also prints out the following:
+
+# Sample output
+# 27 + 15 = 42
+# 27 - 15 = 12
+# 27 * 15 = 405
+# 27 / 15 = 1.8
+
+#solution
+# Write your solution here
+x = 27
+y = 15
+print(f'{x} + {y} = {x+ y}')
+print(f'{x} - {y} = {x-y}')
+print(f'{x} * {y} = {x*y}')
+print(f'{x} / {y} = {x/y}')
+# The code above performs basic arithmetic operations on two integers, x and y, and prints the results in a formatted manner using f-strings.
