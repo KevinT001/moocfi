@@ -9,7 +9,7 @@
 # print("Tuomas")
 
 
-#solution
+#solution below 
 
 brothers = ["Simeoni", "Juhani", "Eero", "Lauri", "Aapo", "Tuomas", "Timo"]
 
