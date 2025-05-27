@@ -74,3 +74,93 @@ if name != "Jerry":
 
 #solution
 
+number =int(input("Please type in a number: "))
+
+if number > 1000:
+    print("Thank you!")
+if number < 1000 and number > 100:
+    print("This number is smaller than 1000")
+    print("Thank you!")
+
+if number < 100 and number > 10:    
+    print("This number is smaller than 1000")
+    print("This number is smaller than 100")
+    print("Thank you!")
+
+if number < 10:
+    print("This number is smaller than 1000")
+    print("This number is smaller than 100")
+    print("This number is smaller than 10")
+    print("Thank you!")
+    
+    # prompt 4
+    
+#     Please write a program which asks the user for two numbers and an operation. If the operation is add, multiply or subtract, the program should calculate and print out the result of the operation with the given numbers. If the user types in anything else, the program should print out nothing.
+
+# Some examples of expected behaviour:
+
+# Sample output
+# Number 1: 10
+# Number 2: 17
+# Operation: add
+
+# 10 + 17 = 27
+# Sample output
+# Number 1: 4
+# Number 2: 6
+# Operation: multiply
+
+# 4 * 6 = 24
+# Sample output
+# Number 1: 4
+# Number 2: 6
+# Operation: subtract
+
+# 4 - 6 = -2
+
+#solution
+
+num1 = int(input("Number 1: "))
+num2 = int(input("Number 2: "))
+operation = input("Operation: ")
+
+add = num1 + num2
+subtract = num1 - num2
+multiply = num1 * num2
+
+if operation != ("add", "subtract", "multiply"):
+    print("")
+if operation == "add":
+    print(f"{num1} + {num2} = {add}")
+
+if operation == "subtract":
+    print(f"{num1} - {num2} = {subtract}")
+
+if operation =="multiply":
+    print(f"{num1} * {num2} = {multiply}")   
+
+# prompt 5
+
+# Please write a program which asks the user for a temperature in degrees Fahrenheit, and then prints out the same in degrees Celsius. If the converted temperature falls below zero degrees Celsius, the program should also print out "Brr! It's cold in here!".
+
+# The formula for converting degrees Fahrenheit to degrees Celsius can be found easily by any search engine of your choice.
+
+# Two examples of expected behaviour:
+
+# Sample output
+# Please type in a temperature (F): 101
+# 101 degrees Fahrenheit equals 38.333333333333336 degrees Celsius
+
+# Please type in a temperature (F): 21
+# 21 degrees Fahrenheit equals -6.111111111111111 degrees Celsius
+# Brr! It's cold in here!
+
+faren = float(input("Please type in a temperature(F): "))
+celsius = ((faren -32) * (5/9))
+
+if celsius >= 0 :
+    print(f"{faren} degrees Fahrenheit equals {celsius} degrees Celsius")
+
+if celsius < 0:
+    print(f"{faren} degrees Fahrenheit equals {celsius} degrees Celsius")
+    print("Brr! It's cold in here!"
