@@ -25,3 +25,11 @@ print("!"+name+"!"+name+"!")
 # 91 Station Road
 # London EC05 6AW
 
+name =input("Given name:")
+family_name= input("Family name:")
+address = input("Street address:")
+city_and_postal= input("City and postal code:")
+
+print(name +" "+ family_name)
+print(address)
+print(city_and_postal)
