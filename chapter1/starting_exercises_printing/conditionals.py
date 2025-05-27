@@ -9,3 +9,12 @@
 # Please type in a number: 1
 # The absolute value of this number is 1
 
+num =int(input("Please type in a number:"))
+statement = "The absolute value of this number is"
+if (num < 0):
+    print(f"{statement}", end=" ") 
+    print(int((num * -1)))
+
+if (num >= 0):
+     print(f"{statement}", end=" ")
+     print (num)    
