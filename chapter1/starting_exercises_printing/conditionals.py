@@ -229,3 +229,143 @@ elif points >= 100:      #changed if on this line to elif
     print("Your bonus is 15 %")
 
 print("You now have", points, "points")
+
+# prompt 8
+
+# Please write a program which asks for tomorrow's weather forecast and then suggests weather-appropriate clothing.
+
+# The suggestion should change if the temperature (measured in degrees Celsius) is over 20, 10 or 5 degrees, and also if there is rain on the radar.
+
+# Some examples of expected behaviour:
+
+# Sample output
+# What is the weather forecast for tomorrow?
+# Temperature: 21
+# Will it rain (yes/no): no
+# Wear jeans and a T-shirt
+# Sample output
+# What is the weather forecast for tomorrow?
+# Temperature: 11
+# Will it rain (yes/no): no
+# Wear jeans and a T-shirt
+# I recommend a jumper as well
+# Sample output
+# What is the weather forecast for tomorrow?
+# Temperature: 7
+# Will it rain (yes/no): no
+# Wear jeans and a T-shirt
+# I recommend a jumper as well
+# Take a jacket with you
+# Sample output
+# What is the weather forecast for tomorrow?
+# Temperature: 3
+# Will it rain (yes/no): yes
+# Wear jeans and a T-shirt
+# I recommend a jumper as well
+# Take a jacket with you
+# Make it a warm coat, actually
+# I think gloves are in order
+# Don't forget your umbrella!
+
+#solution
+
+print("What is the weather forecast for tomorrow?")
+temp = int(input("Temperature:"))
+rain = input("Will it rain(yes/no)")
+shirt = ("Wear jeans and a T-shirt")
+jumper = ("I recommend a jumper as well")
+jacket = ("Take a jacket with you")
+coat = ("Make it a warm coat, actually")
+gloves =("I think gloves are in order")
+umbrella = ("Don't forget your umbrella!")
+
+
+if temp > 20: 
+    if rain == "no":
+        print(f"{shirt}")
+
+    elif rain == "yes": 
+     
+        print(f"{shirt}")
+        print(f"{umbrella}")
+
+if temp <= 20 and temp > 10: 
+    if rain == "no":
+        print(f"{shirt}")
+        print(f"{jumper}")
+
+    elif  rain == "yes":
+        print(f"{shirt}")
+        print(f"{jumper}")
+        print(f"{umbrella}")
+
+if temp <=10 and temp > 5:
+    if rain == "yes":
+        print(f"{shirt}")
+        print(f"{jumper}")
+        print(f"{jacket}")
+        print(f"{umbrella}")
+    elif rain == "no":
+        print(f"{shirt}")
+        print(f"{jumper}")
+        print(f"{jacket}")
+
+if temp <= 5:
+    if rain == "yes": 
+        print(f"{shirt}")
+        print(f"{jumper}")
+        print(f"{jacket}")
+        print(f"{coat}")
+        print(f"{gloves}")
+        print(f"{umbrella}")
+    elif rain =="no":
+        print(f"{shirt}")
+        print(f"{jumper}")
+        print(f"{jacket}")
+        print(f"{coat}")
+        print(f"{gloves}")
+        
+        
+# prompt 9
+# In the Python math module there is the function sqrt, which calculates the square root of a number. You can use it like so:
+
+# from math import sqrt
+
+# print(sqrt(9))
+# This should print out
+
+# Sample output
+# 3.0
+# We will return to the concept of a module and the import statement later. For now, it is sufficient to understand that the line from math import sqrt allows us to use the sqrt function in our program.
+
+# Please write a program for solving a quadratic equation of the form ax²+bx+c. The program asks for values a, b and c. It should then use the quadratic formula to solve the equation. The quadratic formula expressed with the Python sqrt function is as follows:
+
+# x = (-b ± sqrt(b²-4ac))/(2a).
+
+# You can assume the equation will always have two real roots, so the above formula will always work.
+
+# An example of expected behaviour:
+
+# Sample output
+# Value of a: 1
+# Value of b: 2
+# Value of c: -8
+
+# The roots are 2.0 and -4.0
+
+#solution
+
+from math import sqrt
+
+# Note that the square root can also be calculated using power.
+# sqrt(9) is equivalent to 9 ** 0.5
+
+a = (float(input("Value of a:")))
+b = (float(input("Value of b:")))
+c = (float(input("Value of c:")))
+
+x1 = (-b + sqrt(b**2 -4*a*c))/(2*a )
+
+x2 = (-b - sqrt(b**2 -4*a*c))/(2*a) 
+
+print(f"The root are {x1} and {x2}")
