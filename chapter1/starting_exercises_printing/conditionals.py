@@ -163,4 +163,35 @@ if celsius >= 0 :
 
 if celsius < 0:
     print(f"{faren} degrees Fahrenheit equals {celsius} degrees Celsius")
-    print("Brr! It's cold in here!"
+    print("Brr! It's cold in here!")
+    
+# prompt 6
+
+# Please write a program which asks for the hourly wage, hours worked, and the day of the week. The program should then print out the daily wages, which equal hourly wage multiplied by hours worked, except on Sundays when the hourly wage is doubled.
+
+# Sample output
+# Hourly wage: 8.5
+# Hours worked: 3
+# Day of the week: Monday
+# Daily wages: 25.5 euros
+# Sample output
+# Hourly wage: 12.5
+# Hours worked: 10
+# Day of the week: Sunday
+# Daily wages: 250.0 euros
+
+#solution
+hourly = float(input("Hourly wage:" ))
+hours_worked = int(input("Hours worked:"))
+day_of_week = input("Day of the week:")
+
+normal_pay = (hourly*hours_worked)
+double_pay = ((hourly*2) * hours_worked)
+
+sunday = (hourly * 2)
+
+if day_of_week in ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"): 
+    print(f"Daily wages: {normal_pay} euros")
+
+if day_of_week == "Sunday":
+    print(f"Daily wages: {double_pay} euros")
