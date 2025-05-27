@@ -53,3 +53,27 @@ print(f'{x} - {y} = {x-y}')
 print(f'{x} * {y} = {x*y}')
 print(f'{x} / {y} = {x/y}')
 # The code above performs basic arithmetic operations on two integers, x and y, and prints the results in a formatted manner using f-strings.
+
+
+#prompt 3
+# Please fix this program so that the entire calculation, complete with result, is printed out on a single line. Do not change the number of print commands used.
+
+
+# print(5)
+# print(" + ")
+# print(8)
+# print(" - ")
+# print(4)
+# print(" = ")
+# print(5 + 8 - 4)
+
+#solution   
+# Fix the code
+print(5, end="")
+print(" + ", end="")
+print(8, end="")
+print(" - ", end="")
+print(4, end="")
+print(" = ", end="")
+print(5 + 8 - 4)
+# The code above prints a mathematical expression and its result on a single line by using the `end` parameter in the print function to control the output format.
