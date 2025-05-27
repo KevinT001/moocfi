@@ -5,3 +5,9 @@
 # Sample output
 # What is your name? Paul
 # !Paul!Paul!
+
+#solution
+name = input("What is your name?")
+
+print("!"+name+"!"+name+"!")
+# The code above prompts the user for their name and then prints it out twice on a single line, with exclamation marks at the beginning, between the names, and at the end.
