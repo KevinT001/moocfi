@@ -94,3 +94,11 @@ print("Thank you!")
 # Please type in a number: 1.34
 # Integer part: 1
 # Decimal part: 0.34
+
+#solution
+
+number = float(input("Please type in a number:"))
+
+num_dec= number%1
+print("The integer part:", int(number))
+print("The decimal part:", (num_dec))
