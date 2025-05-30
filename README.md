@@ -1,3 +1,1 @@
-# moocfi
-# moocfi
-# moocfi
+# moocfi python exercise course
