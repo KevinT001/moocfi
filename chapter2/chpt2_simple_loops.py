@@ -187,4 +187,14 @@ while user_input != pin:
 # The next leap year after 2024 is 2028
     
     
+    user_input = int(input("Year:"))
+next_leep = False 
+the_next = user_input
+while next_leep == False:
+    
+    the_next +=1
+    
+    if (the_next%4 == 0 and the_next%100 != 0) or (the_next%4 ==0 and (the_next%100 ==0 and the_next%400 == 0)):
+        next_leep = True
+        print(f"The next leap year after {user_input} is {the_next}" )
     
