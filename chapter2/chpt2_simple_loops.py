@@ -119,3 +119,15 @@ print("Now!")
 # Repeat password: sekred
 # User account created!
 
+#solution
+
+password = input("Password:")
+repeat_pass = ""
+while password != repeat_pass: 
+    repeat_pass =input("Repeat password:")
+    if  password == repeat_pass:
+        break
+    
+        
+    print("They do not match!")
+print("User account created!")
