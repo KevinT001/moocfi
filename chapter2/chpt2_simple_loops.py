@@ -13,3 +13,12 @@
 # okay then
 
 #solution
+print("hi")
+while True:
+
+    hello = input("Shall we continue?")
+    if hello == "no":
+        break 
+    print("hi")
+    
+print("okay then")
