@@ -56,3 +56,41 @@ print("okay then")
 # 1.0
 # Please type in a number: 0
 # Exiting...
+
+#solution
+from math import sqrt
+# Write your solution here
+number = ("")
+
+while number != 0:
+    number = int(input("Please type in a number:")) 
+    if number > 0: 
+        print(sqrt(number))
+    elif number < 0:
+        print("Invalid number")
+print("Exiting...")
+
+#prompt
+
+# This program should print out a countdown. The code is as follows:
+
+# number = 5
+# print("Countdown!")
+# while True:
+#   print(number)
+#   number = number - 1
+#   if number > 0:
+#     break
+
+# print("Now!")
+# This should print out
+
+# Sample output
+# Countdown!
+# 5
+# 4
+# 3
+# 2
+# 1
+# Now!
+
