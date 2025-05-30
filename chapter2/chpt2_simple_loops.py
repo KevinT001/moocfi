@@ -150,3 +150,26 @@ print("User account created!")
 # Sample output
 # PIN: 4321
 # Correct! It only took you one single attempt!
+
+#solution
+
+attempts = 0
+pin = 4321
+user_input = " "
+while user_input != pin:
+     
+    user_input= int(input("PIN:"))
+
+    
+    if user_input == 4321:
+        attempts +=1
+        if attempts == 1:
+            print("Correct! It only took you one single attempt!")
+        elif attempts > 1:
+            print(f"Correct! It took you {attempts} attempts") 
+        break
+    elif user_input != 4321:
+        attempts +=1
+    print("Wrong")
+    
+    
