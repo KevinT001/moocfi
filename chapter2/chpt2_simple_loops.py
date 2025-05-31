@@ -230,3 +230,23 @@ while next_leep == False:
 # Please type in a word: night
 # It was a dark and stormy night
 
+#solution
+
+words = ""
+last_word =""
+
+
+while True:
+    word = input("Please type in a word:")
+    
+    if word == "end":
+        break 
+    elif last_word == word:
+        break
+    else:
+        words += word + " "
+        last_word = word 
+        
+
+print((words).replace("end",""))      
+ 
