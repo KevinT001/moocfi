@@ -43,3 +43,16 @@ while num < 30 :
 # 1
 # Now!
 # This exercise is similar to the countdown exercise in the last section, but please don't use a while True loop this time round!
+
+#solution
+
+
+print("Are you ready?")
+number = int(input("Please type in a number: "))
+while number != 0:
+    print(number)
+    number -= 1
+    
+        
+
+print("Now!")
