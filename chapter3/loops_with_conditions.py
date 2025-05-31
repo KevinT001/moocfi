@@ -68,3 +68,13 @@ print("Now!")
 # 3
 # 4
 # Please don't use the value True as the condition of your while loop in this exercise!
+
+#solution
+
+number = int(input("Upper limit:"))
+counter =0
+
+while counter != (number -1):
+    counter += 1
+    print(counter)
+    
