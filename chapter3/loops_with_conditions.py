@@ -98,3 +98,6 @@ while counter != (number -1):
 # 4
 # 8
 # 16
+# Please don't use the value True as the condition of your while loop in this exercise!
+
+# What are powers of two? The first power of two is the number 1. The next one is 1 times 2, which is 2. The next is 2 times 2, which is 4. The next is 4 times 2, which is 8, and so forth. Each power in the sequence is multiplied by two to produce the next one.
