@@ -124,3 +124,13 @@ while numbers <= upper_limit:
 # 27
 # Please don't use the value True as the condition of your while loop in this exercise!
 
+#solution
+
+upper_limit = int(input("Upper limit:"))
+
+base_value =int(input("Base:"))
+numbers = 1 
+
+while numbers <= upper_limit:
+    print(numbers)
+    numbers*=base_value
