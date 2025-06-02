@@ -149,3 +149,18 @@ while numbers <= upper_limit:
 # Limit: 18
 # 21
 # If you have trouble understanding how the desired output is calculated, the sample outputs in the next exercise may help. You may assume the number typed in by the user is always equal to 2 or higher.
+
+#solution
+
+#not correct need to come back
+
+limit =int(input("Limit:"))
+sum= 0
+
+num = 1
+
+while sum <= limit :
+    num += 1
+    sum += num
+
+print(sum)
