@@ -180,3 +180,5 @@ print(sum)
 # Limit: 18
 # The consecutive sum: 1 + 2 + 3 + 4 + 5 + 6 = 21
 # You may assume the number typed in by the user is always equal to 2 or higher.
+
+#solution
