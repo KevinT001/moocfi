@@ -8,3 +8,10 @@
 # Please type in a string: hiya
 # Please type in an amount: 4
 # hiyahiyahiyahiya
+
+#solution
+
+string = input("Please type in a string:")
+amount = int(input("Please type in an amount:"))
+
+print(string * amount)
