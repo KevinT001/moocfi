@@ -33,3 +33,15 @@ print(string * amount)
 # Please type in string 1: hey
 # Please type in string 2: bye
 # The strings are equally long
+
+# solution
+
+string1 = input("Please type in a string 1:")
+string2 = input("Please type in a string 2:")
+
+if len(string1) > len(string2):
+    print(f"{string1} is longer")
+elif len(string1) < len(string2):
+    print(f"{string2} is longer")
+else:
+    print("The strings are equally long")
