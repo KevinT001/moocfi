@@ -87,3 +87,17 @@ if string[1] == string[-2]:
     print(f"The second and the second to last characters are {string[1]} ")
 else:
     print("The second and the second to last characters are different")
+    
+#prompt 5
+
+# Please write a program which prints out a line of hash characters, the width of which is chosen by the user.
+
+# Sample output
+# Width: 3
+# ###
+# Sample output
+# Width: 8
+########
+
+#solution
+
