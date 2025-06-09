@@ -114,3 +114,14 @@ print(width * "#")
 # ##########
 # ##########
 # ##########
+
+#solution
+
+width = int(input("Width:"))
+height = int(input("Height:"))
+length = width * "#"
+# print(width * "#")
+
+while height > 0 : 
+    print(length)
+    height -=1
