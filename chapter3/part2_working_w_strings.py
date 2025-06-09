@@ -100,4 +100,6 @@ else:
 ########
 
 #solution
+width = int(input("Width:"))
 
+print(width * "#")
