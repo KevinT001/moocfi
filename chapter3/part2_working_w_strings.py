@@ -192,3 +192,22 @@ else:
 # ******************************
 # *           python           *
 # ******************************
+
+#solution
+string = input("Word")
+
+top_bot = 30 * "*"
+space_minus = int((28- len(string))/2)
+space = (space_minus * " ")
+
+middle = ("*" + space + string + space + "*" )
+middle_plus = ("*" + space + string + space + " " + "*" )
+
+if string != "":
+    print(top_bot)
+    if len(string)%2 != 0:
+        print(middle_plus)
+    else:
+        
+        print (middle)
+    print(top_bot)
