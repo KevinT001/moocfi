@@ -168,3 +168,13 @@ while string != "":
 # Sample output
 # Please type in a string: averyverylongstring
 # *averyverylongstring
+
+#solution
+
+string = input("Please type in a string:")
+additional= ((20 - len(string)) * "*")
+length = len(string)
+if length < 20:
+    print(additional + string)
+else:
+    print(string)
