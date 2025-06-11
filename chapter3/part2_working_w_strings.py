@@ -222,3 +222,10 @@ if string != "":
 # te
 # tes
 # test
+
+string = input("Please type in a string:")
+
+
+for char in range(len(string)):
+
+   print(string[:char+1])
