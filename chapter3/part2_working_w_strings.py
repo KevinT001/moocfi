@@ -245,3 +245,4 @@ string = input("Please type in a string:")
 for char in range(len(string)-1,-1,-1):
 
     print(string[char:])
+    #"-1,-1,-1" first -1 is the start position of string. second -1 is the stopping postion. and the third -1 is the condtion/ the increment. so working backwards from end to index 0. 
