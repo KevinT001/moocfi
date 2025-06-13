@@ -238,3 +238,5 @@ for char in range(len(string)):
 # st
 # est
 # test
+
+#solution
