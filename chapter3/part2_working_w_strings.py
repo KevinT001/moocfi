@@ -246,3 +246,9 @@ for char in range(len(string)-1,-1,-1):
 
     print(string[char:])
     #"-1,-1,-1" first -1 is the start position of string. second -1 is the stopping postion. and the third -1 is the condtion/ the increment. so working backwards from end to index 0. 
+    
+#prompt
+
+# Please write a program which asks the user to input a string. The program then prints out different messages if the string contains any of the vowels a, e or o.
+
+# You may assume the input will be in lowercase entirely. Have a look at the examples below.
