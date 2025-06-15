@@ -262,3 +262,21 @@ for char in range(len(string)-1,-1,-1):
 # a found
 # e not found
 # o not found
+
+#solution
+#need to fix/ correctly solve later
+# string = input("Please type in a string:")
+# vowels = ["a","e","i", "o", "u"]
+# for char in string:
+#     if char == vowels[0]:
+#         print("a found")
+#     elif char == vowels[1]:
+#         print("e found")
+#     elif char == vowels[2]:
+#         print("i found")
+#     elif char == vowels[3]:
+#         print("o found")
+#     elif char == vowels[4]:
+#         print("u found")
+#     else: 
+#         print(f"{char} not found")
