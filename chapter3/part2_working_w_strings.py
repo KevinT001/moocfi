@@ -299,3 +299,9 @@ for char in range(len(string)-1,-1,-1):
 # Sample output
 # Please type in a word: python
 # Please type in a character: n
+
+#solution (come back)
+
+word = input("Please type in a word:")
+char = input("Please type in a character:")
+#start with if conditional? use .find method? 
