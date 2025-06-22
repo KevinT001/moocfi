@@ -306,4 +306,4 @@ word = input("Please type in a word:")
 char = input("Please type in a character:")
 #start with if conditional? use .find method? 
 
-#save? connection test # ignore this line. 
+#save? 
