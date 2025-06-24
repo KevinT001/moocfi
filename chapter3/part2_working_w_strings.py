@@ -306,3 +306,6 @@ word = input("Please type in a word:")
 char = input("Please type in a character:")
 #start with if conditional? use .find method? 
 
+#prompt
+
+# Please make an extended version of the previous program, which prints out all the substrings which are at least three characters long, and which begin with the character specified by the user. You may assume the input string is at least three characters long.
