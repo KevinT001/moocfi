@@ -318,3 +318,5 @@ char = input("Please type in a character:")
 # Please type in a word: banana
 # Please type in a character: n
 # nan
+
+#solution
